@@ -1,0 +1,667 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: black;
+    font-family: UberMove, UberMoveText, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.NavigationContainer{
+    width: 100%;
+    height: 64px;
+    color: white;
+    background: black;
+    display: flex;
+    align-items: center;
+}
+.NavLeft{
+    display: flex;
+    margin-left: 62px;
+}
+.UberLogo{
+    font-size: 24px;
+    font-weight: 400;
+    cursor: pointer;
+    margin-right: 37px;
+
+}
+.NavLeft ul{
+    display: flex;
+    list-style-type: none;
+    font-size: 14px;
+    align-items: center;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.NavLeft ul li{
+    margin-right: 30px;
+}
+.NavLeft ul li i{
+    margin-left: -19px;
+}
+.NavRight{
+    position: absolute;
+    right: 40px;
+    /* background: transparent; */
+}
+.NavRight ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;  
+}
+.NavRight ul li{
+    margin-right: 30px;
+}
+.NavRight ul li button{
+    height: 35px;
+    width: 76px;
+    border-radius: 17px;
+    border: none;
+    cursor: pointer;
+}
+
+/* ------------------------SECTION 1------------------------- */
+.GoWithUberContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 55px;
+    margin-bottom: 55px;
+}
+.GoRight{
+    margin-left: 100px;
+    width: 35%;
+}
+.GoRight h1{
+    font-size: 53px;
+}
+.GoPickUp{
+    background-color: #F3F3F3;
+    height: 47px;
+    width: 400px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 30px;
+}
+.GoPickUp i{
+    font-size: 9px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.GoPickUp input{
+    border: none;
+    background-color: #F3F3F3;
+    height: 40px;
+    width: 300px;
+    font-size: medium;
+}
+.GoPickUp svg{
+    width: 25px;
+    height: 30px;
+    /* margin-top: 16px; */
+}
+.DropOff{
+    background-color: #F3F3F3;
+    height: 47px;
+    width: 400px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+.DropOff i{
+    font-size: 9px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+.DropOff input{
+    border: none;
+    background-color: #F3F3F3;
+    height: 40px;
+    width: 300px;
+    font-size: medium;
+}
+.DateTime{
+    display: flex;
+}
+.Calender{
+    background-color: #F3F3F3;
+    height: 47px;
+    width: 195px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+}
+.Calender input{
+    background-color: #F3F3F3;
+    border: none;
+    width: 170px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+.Date{
+    background-color: #F3F3F3;
+    height: 47px;
+    width: 195px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+    cursor: pointer;
+
+}
+.Date input{
+    background-color: #F3F3F3;
+    border: none;
+    width: 120px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: medium;
+}
+.Date i{
+    padding: 10px;
+}
+.Time{
+    background-color: #F3F3F3;
+    height: 47px;
+    width: 195px;
+    border-radius: 10px;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.Time input{
+    background-color: #F3F3F3;
+    border: none;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: medium;
+}
+.Time i{
+    padding: 10px;
+}
+.GoWithUberContainer button{
+    width: 125px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    align-items: center;
+    border-radius: 10px;
+    margin-top: 20px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+}
+.GoLeft{
+    right: 90px;
+    position: absolute;
+    margin-top: 200px;
+}
+.GoLeft img{
+    width: 570px;
+    height: 570px;
+    
+}
+
+
+/* ------------------SECTION 2--------------------------- */
+.SuggessionContainer{
+    margin-top: 300px;
+    margin-left: 100px;
+    /* margin-bottom: 60px; */
+}
+.SuggessionContainer h1{
+    font-size: 40px;
+}
+.Suggession-Container{
+    display: flex;
+    margin-top: 40px;
+}
+.Suggessions{
+    width: 380px;
+    height: 170px;
+    /* border: 1px solid black; */
+    margin-right: 20px;
+    background-color: #F3F3F3;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Suggession-card{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.Suggession-card img{
+    width: 130px;
+    height: 130px;
+}
+.text p{
+    font-size: 13px;
+    margin-top: 15px;
+}
+.text h3{
+    font-weight: 500;
+}
+.text button{
+    margin-top: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 18px;
+    width: 85px;
+    height: 40px;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* -----------------SECTION 3-------------------------- */
+.LoginContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 150px;
+    margin-left: 100px;
+}
+.LoginLeft{
+    width: 35%;
+}
+.LoginLeft h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+.LoginLeft p{
+    font-size: 16px;
+    margin-bottom: 30px;
+}
+.LoginLeft button{
+    width: 220px;
+    height: 45px;
+    margin-bottom: 15px;
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 17px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.LoginLeft input{
+    border: none;
+    font-size: 17px;
+    width: 280px;
+    color: black;
+}
+.LoginLeft hr{
+    width: 290px;
+}
+.LoginRight img{
+    right: 100px;
+    position: absolute;
+}
+/* ----------------------SECTION 4------------------------------ */
+.PlanContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.PlanContainer h1{
+    padding-top: 40px;
+    font-size: 35px;
+}
+.PlanLeft{
+    background: rgb(157, 205, 214);
+    border-radius: 12px;
+    box-sizing: border-box;
+    display: inline-block;
+    padding: 24px;
+    position: relative;
+    vertical-align: top;
+    width: 63%;
+    height: 380px;
+    margin-top: 40px;
+    background-image:url(/Images/image-9.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+}
+.GetRide{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.DateandTime{
+    display: flex;
+    /* flex-direction: column; */
+}
+.GetRide p{
+    font-size: 19px;
+    font-weight: 500;
+    color: black;
+    padding-top: 23px;
+    margin-bottom: 10px;
+}
+.DateRide{
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+
+}
+.DateRide i{
+    padding: 15px;
+}
+.DateRide input{
+    width: 280px;
+    border: none;
+    font-size: 19px;
+    font-weight: 100;
+}
+.DateandTime input{
+    width: 100px;
+}
+.TimeRide{
+    width: 180px;
+    height: 50px;
+    background-color: white;
+    justify-content: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.TimeRide i{
+    /* padding: 12px; */
+    padding-top: 18px;
+    padding-left: 12px;
+    padding-right: 10px;
+}
+.TimeRide input{
+    width: 90px;
+    font-size: 19px;
+    border: none;
+}
+.PlanLeft button{
+    width: 370px;
+    height: 50px;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 20px;
+    font-size: large;
+    cursor: pointer;
+}
+.BenefitCard{
+    color: black;
+    margin-left: 25px;
+    width: 375px;
+    height: 335px;
+    border: 1px solid rgb(214, 207, 207);
+    margin-top: 45px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.PlanForLater{
+    display: flex;
+}
+.ListBenefits{
+    display: flex;
+    /* margin-bottom: 40px; */
+    font-size: 17px;
+    margin-left: 30px;
+    margin-right: 20px;
+}
+.BenefitCard hr{
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-color: rgb(214, 207, 207);
+}
+.BenefitCard a{
+    bottom: 70px;
+    position: absolute;
+    color: rgb(53, 51, 51);
+    font-size: medium;
+}
+.ListBenefits p{
+    margin-left: 15px;
+}
+.BenefitCard h3{
+    padding-bottom: 40px;
+}
+
+/* -------------------SECTION 5---------------------- */
+
+.DriveContainer{
+    display: flex;
+    padding-top: 100px;
+    padding-left: 100px;
+}
+.DriveRight{
+    padding-left: 130px;
+    width: 580px;
+    padding-top: 80px;
+}
+.DriveRight h1{
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+.DriveRight p{
+    font-size: medium;
+    padding-bottom: 30px;
+}
+.DriveButton{
+    display: flex;
+}
+.DriveButton button{
+    background-color: black;
+    color: white;
+    border: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 10px;
+    margin-right: 15px;
+    font-size: medium;
+    font-weight: 600;
+    cursor: pointer;
+}
+.DriveButton input{
+    width: 220px;
+    border: none;
+    font-size: medium;
+    color: black;
+}
+.DriveRight hr{
+    margin-left: 155px;
+    margin-right: 60px;
+    
+}
+
+/* ---------------------------SECTION 6----------------------------- */
+.businessContainer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+    margin-left: 100px;
+}
+.businessleft{
+    width: 35%;
+}
+.businessleft hr{
+    margin-left: 155px;
+    margin-right: 60px;
+}
+.businessleft h1{
+    font-size: 50px;
+    margin-bottom: 30px;
+    padding-top: 80px;
+    color: rgb(53, 50, 50);
+}
+.businessleft p{
+    margin-bottom: 30px;
+}
+/* -------------------------SECTION 7---------------------------- */
+
+.CarRentContainer{
+    display: flex;
+    margin-top: 270px;
+    padding-left: 100px;
+}
+.DriveRight h2{
+    font-size: 34px;
+    padding-top: 60px;
+    padding-bottom: 30px;
+}
+/* ------------------------SECTION 8------------------------ */
+
+.DownloadApp{
+    margin-top: 130px;
+    background-color: #F3F3F3;
+    width: 100%;
+    height: 400px;
+}
+.DownloadApp h1{
+    font-size: 40px;
+    padding-top: 40px;
+    margin-left: 100px;
+    padding-bottom: 30px;
+}
+.DowloadCard{
+    width: 560px;
+    height: 200px;
+    margin-left: 100px;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    cursor: pointer;
+}
+.Download{
+    display: flex;
+    margin-bottom: 40px;
+}
+.DowloadCard img{
+    width: 145px;
+    height: 145px;
+}
+.DowloadText h3{
+    font-size: 25px;
+}
+.DowloadText p{
+    font-size: 18px;
+}
+
+/* -------------------------FOOTER--------------------------- */
+
+.FooterContainer{
+    width: 100%;
+    height: 930px;
+    background-color: black;
+    color: white;
+    padding-left: 100px;
+}
+.FooterHeader{
+    padding-top: 100px;
+}
+.FooterHeader h3{
+    font-size: 24px;
+    font-weight: 400;
+    padding-bottom: 40px;
+    cursor: pointer;
+}
+.FooterHeader p{
+    cursor: pointer;
+}
+.FooterList{
+    display: flex;
+    padding-top: 75px;
+}
+.List{
+    padding-right: 180px;
+}
+.List ul{
+    list-style-type: none;
+    line-height: 40px;
+}
+.List ul li a{
+    text-decoration: none;
+    color: white;
+}
+.List ul li h3{
+    font-weight: 500;
+}
+.SocialMedia{
+    display: flex;
+    padding-top: 60px;
+    /* justify-content: space-evenly; */
+
+}
+.SocialLeft a{
+    padding-right: 100px;
+    color: white;
+}
+.SocialRight{
+    position: absolute;
+    right: 130px;
+}
+.SocialRight button{
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    padding: 4px;
+    background: transparent;
+    color: white;
+    padding-right: 10px;
+}
+.SocialRight button i{
+    font-size: medium;
+    padding-right: 8px;
+}
+.SocialRight button svg{
+    margin-right: 8px;
+}
+.GetApp{
+    padding-top: 60px;
+    
+}
+.GetApp img{
+    width: 155px;
+    height: 40px;
+}
+.Terms{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 60px;
+    color: rgb(161, 153, 153);
+}
+.TermsRight{
+    position: absolute;
+    right: 70px;
+}
+.TermsRight ul{
+    display: flex;
+    list-style-type: none;
+}
+.TermsRight ul a{
+    text-decoration: none;
+    color: rgb(161, 153, 153);
+    padding-right: 30px;
+    font-size: smaller;
+}
+.TermsLeft p{
+    font-size: smaller;
+}
