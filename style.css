@@ -331,7 +331,7 @@ body{
     width: 63%;
     height: 380px;
     margin-top: 40px;
-    background-image:url(/Images/image-9.png);
+    background-image:url(./Images/image-9.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 100% 100%;
